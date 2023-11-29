@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+    * {margin: 0 auto; box-sizing: border-box;}
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap');
+        html, body, h1, h2, h3, h4, h5, h6, li, p {font-family: 'DM Sans', sans-serif;}
+        ul,ol,li {list-style: none; margin: 0; padding: 0;}
+
+
+    @media(min-width:1650px){
+
+        .blank1{width:500px; height:80px;}
+        #wrap {width: 100%; height: auto; margin: 0 auto;}
+
+        /*헤더 시작*/
+      
+        #top {width: 100%; height: 110px; margin:0 auto; position:absolute;}
+        #topbox{width:100%; height:110px; margin:0 auto; display:flex; justify-content:space-around; align-items:center;}
+        #topbox>#logobox {width: 250px; height: 65px; display: flex; align-items:center; justify-content:space-around;}
+        #topbox>#logobox>a>img {width: 55px; height: 64px; filter:brightness(100);}
+        #topbox>#logobox>span {font-size: 12px; color: #fff; font-weight: 1000;}
+        #toggle_menu>ul {width:auto; height: 50px; display: flex; justify-content: center; align-items: center;}
+        #toggle_menu>ul>li {font-size: 13px; font-weight: 1000; color: #fff; padding: 0px 40px;}
+        #toggle_menu>ul>li>a{text-decoration:none; color:#fff; padding:5px 10px;}
+        #toggle_menu>ul>li>a:hover{text-shadow:2px 2px 2px #fff;}
+        #utility {width:250px; height: 50px; padding: 0px 0px 0px 50px; display: flex; justify-content: space-around; align-items: center;}
+        #utility>a>.icon1 {width: 20px; height: 20px; margin:0px 0px 0px 10px;}
+        #btn1 {height:55px; background: none;  border:none; margin:0px 0px 0px 10px;}
+        #btn1>a {background-color:none; height:55px; border: 1px solid#fff; padding:15px 30px; text-decoration: none; color: #fff; font-size: 18px; font-weight: bold;}
+        #btn1>a:hover{background-color:#000;}
+        #toggle_menu{display:block;}
+        #toggle_menu2{display:none;}
+        #burger_menu{display:none;}
+        /*헤더 종료*/
+
+
+ /*footer시작*/
+        footer{width:100%; height:410px; margin:0 auto; background-color:#fff;}
+        #footer_article{width:1500px; height:300px; display:flex; justify-content:space-around; align-items:center; margin:0 auto;}
+        #footer_article > article{width:450px; height:200px;}
+        .footer_title{width:100%; height:30px; font-size:16px; color:#1c1c4c; font-weight:bold; border-bottom:1px solid#efede6;}
+        .footer_content{width:100%; height: 170px; display:flex; flex-direction:column; flex-wrap:wrap; justify-content:space-around;}
+        .footer_content > span{width:50%; height:15px; padding:14px 0px;  color:#000; font-size:13px;}
+        .footer_content > span > a{text-decoration:none; color:#000; font-size:13px;}
+        .number{font-weight:bold;}
+        #check_link > p{font-size:14px; color:#000;}
+        #check_link > #check_link_box{width:450px; height:50px; display:flex; align-items:center;}
+        #check_link > #check_link_box > .search_text{width:420px; height:40px; margin:10px 0px; border:1px solid#6e655f;}
+        #check_link > #check_link_box > .search_icon{width:20px; height:40px; margin:10px 0px;}
+        #check{width:100%; height:20px; display:flex; align-items:center; }
+        #check > #check_text{width:95%; height:12px; font-size:10px; color:#000; }
+        #check > #check_text > a{color:#000;}
+        #social_conect{width:100%; height:20px; display:flex; justify-content:center;}
+        #social_conect > a > .social_icon{background-color:#000; width:30px; height:30px; border-radius:50%; margin:30px 10px; display:flex; justify-content:center; align-items:center;}
+        #social_icon2 > img{width:25px; height:20px;}
+        #social_icon5 > img{width:25px; height:20px;}
+        #social_icon6 > img{width:25px; height:20px;}
+        #relation{width:100%; height:100px; margin:0 auto; border-top:1px solid#efede6;}
+        #relation_info{width:1500px; height:80px; margin:0 auto; display:flex; justify-content:space-between;}
+        #relation_logo{width:600px; height:80px; display:flex; align-items:center;}
+        #relation_logo > img{width:60px; height:60px; margin:0px 10px;}
+        #guide{width:250px; height:80px; display:flex; align-items:center; justify-content:space-around;}
+        #guide > p{font-size:14px; color:#000;}
+        #guide > a > img{width:65px; height:20px;}
+        #policy{width:100%; height:30px; display:flex; justify-content:center;  background-color:#f2f0e9;}
+        #policy > ul{width:750px; height:30px; display:flex; justify-content:space-around; align-items:center; font-size:11px; color:#000;}
+        #policy > ul > li{display:inline-block;}
+        #policy > ul > li > a{text-decoration:none; color:#000;}
+        }
+
+
+
